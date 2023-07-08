@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# URFLIX - Netflix Clone (Redesign)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+URFLIX is a responsive and lightweight Netflix clone project designed for tracking and streaming TV shows and movies. With a user-friendly interface and a wide range of features, URFLIX offers a seamless experience for users to browse, search, and discover their favorite content.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Browse and Search:** Explore a vast collection of TV shows and movies, browse different categories, and search for specific titles.
+- **Tracking and Watchlist:** Track watched episodes or movies, mark favorites, and create a personal watchlist.
+- **Streaming:** Stream TV shows and movies seamlessly within the platform.
+- **Recommendations:** Get personalized recommendations based on viewing history and preferences.
+- **Responsive Design:** Enjoy a smooth experience across various devices, including desktops, tablets, and mobile phones.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with URFLIX, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+2. Install dependencies: npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Obtain TMDB API key:
+- Sign up for an account at [The Movie Database (TMDB)](https://www.themoviedb.org/) if you don't have one.
+- Obtain an API key from your TMDB account dashboard.
 
-### `npm run build`
+4. Set up API key:
+- Open the `apiConfig.js` file in the `src/api` directory.
+- Replace `'YOUR_API_KEY'` with your actual TMDB API key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Start the development server: npm start 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Open the application:
+- Open your web browser and visit `http://localhost:3000`.
+- Enjoy exploring and streaming TV shows and movies!
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you would like to contribute to URFLIX, please follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes.
+4. Push your branch to your forked repository.
+5. Submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please make sure to follow the existing code style and provide a clear description of your changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any inquiries or feedback, please contact [Your Name](mailto:your-email@example.com).
+## NOTE 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Design is inspired from Netflix original design and @trananhtuat YT Video (https://www.youtube.com/watch?v=ntYXj9W1Ez8)
