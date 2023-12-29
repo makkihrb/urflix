@@ -51,7 +51,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contact
 
-For any inquiries or feedback, please contact [Your Name](mailto:your-email@example.com).
+For any inquiries or feedback, please contact [me](mailto:mekki.harboub@gmail.com).
 ## NOTE 
 
 This Design is inspired from Netflix original design and @trananhtuat YT Video (https://www.youtube.com/watch?v=ntYXj9W1Ez8)
