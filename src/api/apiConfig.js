@@ -1,4 +1,4 @@
-const apiKey = process.env.API_KEY;
+const apiKey = 'bb9f74affb49b3d92574298dccf8e0c4'; 
 
 const apiConfig = {
     baseUrl: 'https://api.themoviedb.org/3/',
